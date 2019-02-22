@@ -196,3 +196,12 @@ $('#return-to-top').click(function () {      // When arrow is clicked
   }, 500);
 });
 
+// ==== Send Email ====
+$(document).ready(function () {
+  $('#bt1').click(function () {
+    $('#fr1').attr('action',
+      'mailto:bakhita650@gmail.com?subject=' +
+      $('#user_name').val() + '&body=' + $('#your_email').val() + '&body=' + $('#user_message').val());
+    $('#fr1').submit();
+  });
+});
