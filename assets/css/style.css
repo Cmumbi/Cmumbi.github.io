@@ -13,13 +13,13 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #e66f69;
+	color: #75235C;
 	transition: 0.4s ease all;
 	outline: none;
 }
 a:hover,a:active,a:focus{
 	text-decoration: none;
-	color: #e66f69;
+	color: #75235C;
 	opacity: 0.9;
 	outline: none;
 }
@@ -75,6 +75,15 @@ header{
     text-align: center;
     color: #fff;
 }
+
+.center img {
+    border-radius: 50%;
+    border: 1px solid #000;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 30px;
+}
+
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
@@ -206,7 +215,7 @@ header{
     transition: all 0.3s ease;
 }
 .service-wrap:hover i {
-    color: #e66f69;
+    color: #75235C;
 }
 .service-wrap p {
     padding: 0px 40px;
@@ -258,7 +267,7 @@ header{
 	left: 0;
 	padding: 20px;
 	background: #111;
-	color: #e66f69;
+	color: #75235C;
 }
 
 .port figcaption h3 {
@@ -535,7 +544,7 @@ footer {
     text-align: right;
 }
 .designed a:hover {
-    color: #e66f69;
+    color: #75235C;
 }
 
 
